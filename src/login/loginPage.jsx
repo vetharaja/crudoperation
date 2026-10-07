@@ -4,6 +4,7 @@ import { Button, Card, Checkbox, Col, Form, Input, Row } from 'antd';
 const LoginPage = () => {
 
   const [user, setUser] = useState({});
+  const [list, setList] = useState({});
 
   async function onFinish(params) {
     try {
